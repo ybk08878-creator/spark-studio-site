@@ -200,6 +200,16 @@ h3 {
   filter: drop-shadow(0 26px 38px rgba(20, 32, 39, 0.18));
 }
 
+.thank-you-hero {
+  grid-template-columns: minmax(0, 760px);
+  justify-content: center;
+  text-align: center;
+}
+
+.thank-you-hero .hero-actions {
+  justify-content: center;
+}
+
 .section,
 .split-section,
 .contact-section {
